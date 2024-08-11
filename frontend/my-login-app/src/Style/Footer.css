@@ -1,0 +1,57 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 100%;
+  background-color: #d4d4a1;
+  padding: 20px;
+}
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact p,
+.contact a {
+  margin: 5px 0;
+  color: #333333;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 576px) {
+  .footer-content {
+    padding: 10px;
+  }
+
+  .contact p,
+  .contact a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Styling for the social container */
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #d4d4a1;
+  height: 164px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
